@@ -1,0 +1,19 @@
+'use strict'
+process.argv = ["/home/ubuntu/.local/share/heroku/cli/bin/heroku","open"]
+let pluginName = 'heroku-apps'
+let pluginVersion = '2.1.16'
+let topic = 'open'
+let command = ''
+let ctx = {"topic":null,"command":{"topic":"open","plugin":"heroku-apps","usage":"","description":"open the app in a web browser","default":false,"help":"Examples:\n\n  $ heroku open -a myapp\n  # opens https://myapp.herokuapp.com\n\n  $ heroku open -a myapp /foo\n  # opens https://myapp.herokuapp.com/foo","fullHelp":"","hidden":true,"needsApp":true,"wantsApp":false,"needsOrg":false,"wantsOrg":false,"needsAuth":true,"variableArgs":false,"disableAnalytics":false,"args":[{"name":"path","optional":true,"hidden":false}],"flags":null},"app":"calm-island-19522","args":{},"flags":{},"cwd":"/home/ubuntu/fundstarter","herokuDir":"/home/ubuntu/.cache/heroku","debug":false,"debugHeaders":false,"dev":false,"supportsColor":true,"version":"heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1","apiToken":"62e4f348-b00b-4523-b082-79640429a665","apiHost":"api.heroku.com","apiUrl":"https://api.heroku.com","gitHost":"heroku.com","httpGitHost":"git.heroku.com","auth":{"password":"62e4f348-b00b-4523-b082-79640429a665"}}
+ctx.version = ctx.version + ' ' + pluginName + '/' + pluginVersion + ' node-' + process.version
+if (command === '') { command = null }
+let plugin = require(pluginName)
+let cmd = plugin.commands.filter((c) => c.topic === topic && c.command == command)[0]
+
+function handleEPIPE (err) {
+	if (err.errno !== 'EPIPE') throw err
+}
+process.stdout.on('error', handleEPIPE)
+process.stderr.on('error', handleEPIPE)
+
+cmd.run(ctx)

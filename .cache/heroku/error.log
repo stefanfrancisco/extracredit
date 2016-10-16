@@ -1,0 +1,30 @@
+2016/10/03 17:54:39 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/10/03 17:54:39 triggering background update
+2016/10/03 17:54:39 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: update
+2016/10/03 17:54:39 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/10/03 17:54:39 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: login
+2016/10/03 17:54:39 Email: 
+2016/10/03 17:54:39 heroku-cli: Updating plugins...
+2016/10/03 17:54:39  done
+2016/10/03 17:56:02 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/10/03 17:56:02 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/10/03 17:56:02 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: create
+2016/10/03 18:07:39 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/10/03 18:07:39 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/10/03 18:07:39 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: create
+2016/10/03 18:07:40 Error: Expected response to be successful, got 422
+    at Request.handleFailure (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-client/lib/request.js:240:11)
+    at concat.then (/home/ubuntu/.local/share/heroku/cli/lib/node_modules/heroku-client/lib/request.js:131:16)
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+2016/10/03 18:07:40 {"id":"invalid_params","message":"You've reached the limit of 5 apps for unverified accounts. Delete some apps or add a credit card to verify your account."}
+2016/10/03 18:07:50 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/10/03 18:07:50 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/10/03 18:07:50 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: open
+2016/10/03 18:08:56 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/10/03 18:08:56 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/10/03 18:08:56 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: open
+2016/10/03 18:29:26 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/10/03 18:29:26 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/10/03 18:29:28 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: version
+2016/10/03 18:29:28 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: commands
+2016/10/03 18:29:29 heroku-cli/5.4.2-a9a5017 (linux-amd64) go1.7.1 /home/ubuntu/.local/share/heroku/cli/bin/heroku cmd: open
